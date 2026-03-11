@@ -23,12 +23,22 @@ python crypto/create_wallet.py solana
 python crypto/create_wallet.py base
 ```
 
+### [`scripts/portmap.py`](scripts/)
+
+Visualize container port mappings from `podman ps` output. Generates a Unicode table and terminal flowchart.
+
+```bash
+podman ps | python scripts/portmap.py
+podman ps -a | python scripts/portmap.py
+```
+
 ## Structure
 
 ```
 utils/
 ├── scripts/
 │   ├── generate_dirty_csv.py    # Dirty CSV generator
+│   ├── portmap.py               # Container port visualization
 │   └── README.md
 ├── crypto/
 │   ├── create_wallet.py         # Wallet generator (Solana & Base)
