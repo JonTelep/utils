@@ -1,0 +1,11 @@
+# utils
+
+> A reference collection of developer scripts, snippets, and design prompts by Telep IO.
+
+utils is primarily written in Python, hosted at https://github.com/JonTelep/utils.
+
+## Documentation
+
+- [🛠️ Utils](README.md): A reference collection of developer scripts, snippets, and design prompts by Telep IO.
+
+<!-- generated-by: llms-txt-skill -->
